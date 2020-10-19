@@ -1,2 +1,15 @@
 # Signed-Goldberg-Emulator
-Presigned SteamAPI and Steam64API from Goldberg + Cer File
+Some third party tools may show nag-screens if Goldberg Emulator is used to run the game in offline mode / without Steam.
+One method of detection is checking if the Digital Signature is valid for the steam_api files.
+This repo contains self-signed steam_api files and includes the required .cer file.
+
+# Using
+Run "Install Cert.bat" and click "yes"
+
+# Removing
+Run "Remove Cert.bat" and click "yes"
+
+
+On 21.18.2020 the pfx file used to sign these will be added to this repo. This self-signed cert expires 20.18.2020.
+
+The steam_api files are timestamped, so this short expirey is not an issue (for using), and was chosen explicitly for security purposes.
