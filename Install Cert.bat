@@ -1,0 +1,1 @@
+certutil -addstore -user -f "Root" "Goldberg Emu Fake Cert.cer"
